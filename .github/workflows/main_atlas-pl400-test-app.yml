@@ -66,6 +66,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
+          node-version: 20
           app-name: 'atlas-pl400-test-app'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
