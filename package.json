@@ -1,0 +1,14 @@
+{
+  "name": "pl400functionapp",
+  "version": "1.0.0",
+  "description": "pl400 practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alpha Lagatt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
